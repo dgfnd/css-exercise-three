@@ -76,7 +76,8 @@ nav {
 .restaurant-list {
   padding-top: 50px;
   position: relative;
-  width: auto;
+  width: 100%;
+
 }
 .location {
   padding: 15px 20px;
@@ -90,12 +91,15 @@ nav {
   font-weight: bold;
   font-size: 1.125em;
   line-height: 1.75em;
+	position: static;
 }
 .content h3 {
   font-size: .75em;
+	position: static;
 }
 .arrow {
   font-size: .6em;
   position: relative;
-  left: 350px; bottom: 20px;
- }
+  float: right;
+	bottom: 25px;
+	 }
